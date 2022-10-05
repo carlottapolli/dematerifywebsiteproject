@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+<title>Blockchain</title>
+<link rel="stylesheet" href="Dem_style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/6749d414e5.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<!--top navigation bar-->
+<!--Header-->
+<section class="block-header">
+  <nav>
+    <a href="Dematerify.html" class="link-home"><img src="Logo_grigio.png" class="logo"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="#">Chi siamo</a></li>
+        <li><a href="Team.html">Team</a></li>
+        <li><a href="Servizi.html">Servizi</a></li>
+        <li><a href="Blockchain.html">Blockchain</a></li>
+      </ul>
+    </div>
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+  </nav>
+    <div class="block-title">
+        <h1>La nostra Blockchain</h1>
+    </div>
+    <div class="block-row">
+      <div class="logo-col">
+              <img src="commercio_logo.jpg">
+      </div>
+      <div class="block-col">
+          <p>Dematerify utilizza Commercio.network, la prima Blockchain 100% open-source con lo stesso valore legale di un documento cartaceo, grazie alla quale potrai ottenere la dematerializzazione totale dei tuoi asset.
+              <br>Commercio.network ti permette di sviluppare qualsiasi progetto blockchain in una frazione di tempo, spendendo solo €0.01 per singola transazione, tutto in conformità con le normative eIDAS.
+          </p>
+      </div>
+  </div>
+
+<!--CTA-->
+  <section class="block-CTA">
+    <div class="block-CTA-text">
+        <p>Scalabile, conveniente e sostenibile sono solo alcune delle caratteristiche distintive della Blockchain Commercio.network, che attraversa un network di 100 aziende con l’obiettivo di portare innovazione.
+            <br>
+        </p>
+        <div class="block-button">
+            <div class="block-btn">
+                <a href="https://commercio.network/it/gestire-documenti-aziendali-con-la-blockchain/" target="_blank">Scopri Commercio.network</a>
+            </div>
+        </div>    
+    </div>
+
+  </section>
+</section>
+
+<!-----Footer----->
+<section class="footer">
+  <div class="footer-row">
+    <div class="footer-col">
+      <h3>CONTATTACI</h3>
+      <ul>
+        <li>Dematerify S.r.l. Viale di Porta Vercellina, 9 - Milano (MI), Italia</li>
+        <li>+39-02-49518040</li>
+        <li>@info-at-Dematerify.com</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>SEGUICI</h3>
+      <p><a href="#">@Dematerify</a></p>
+    </div>
+    <div class="footer-col">
+      <h3>LA NOSTRA BLOCKCHAIN</h3>
+      <p><a href="https://commercio.network/it/gestire-documenti-aziendali-con-la-blockchain/" target="_blank">Commercio.network</a></p>
+    </div>
+    <div class="footer-col">
+      <h3>PRODOTTO DA:</h3>
+      <ul>
+        <li>Dematerify S.r.l.</li>
+        <li>P. IVA: IT11813900963</li>
+        <li>REG. IMP./C.F. 11813900963</li>
+        <li>R.E.A. MILANO  N. 2626269</li>
+        <li>CAP. SOC. €1000,00</li>
+        <li>Società Iscritta nella sezione ORDINARIA, Iscritta nell’apposita sezione speciale in qualita’ di START-UP INNOVATIVA</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <!-----Javascript for toggle menu---->
+<script>
+  var navLinks=document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right= "0";
+  }
+  function hideMenu(){
+    navLinks.style.right= "-200px";
+  }
+</script>
+
+</body>
